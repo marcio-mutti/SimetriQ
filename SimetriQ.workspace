@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="SimetriQ" Database="">
+  <Project Name="libsimetriq" Path="libsimetriq.project" Active="No"/>
+  <Project Name="debug_lib" Path="debug_lib.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="libsimetriq" ConfigName="Debug"/>
+      <Project Name="debug_lib" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="libsimetriq" ConfigName="Release"/>
+      <Project Name="debug_lib" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
